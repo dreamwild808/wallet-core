@@ -24,7 +24,7 @@ struct TWAccount;
 /// \param derivationPath The derivation path of the Account.
 /// \param publicKey hex encoded public key.
 /// \param extendedPublicKey Base58 encoded extended public key.
-/// \return A new Account.
+/// \return A ne Account.
 TW_EXPORT_STATIC_METHOD
 struct TWAccount* _Nonnull TWAccountCreate(TWString* _Nonnull address,
                                            enum TWCoinType coin,
